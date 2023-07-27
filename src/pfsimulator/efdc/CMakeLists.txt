@@ -1,0 +1,299 @@
+# EFDC-MPI FLAGS
+
+#key_mpi#   # define key_mpi to activate mpi compilation
+#key_omp#          # define key_omp to activate open MP compilation
+#key_ncdf#    # define key_ncdf to activate netcdf read/write
+#key_da# 
+
+add_definitions(-Dkey_mpi)
+add_definitions(-Dkey_omp)
+add_definitions(-Dkey_ncdf)
+add_definitions(-Dkey_da)
+
+set (SRC_FILES
+  ${CMAKE_CURRENT_BINARY_DIR}/parflow_efdc_config.F90
+  ACON.f
+  AINIT.f
+  BAL2T1.f
+  BAL2T2.f
+  BAL2T3A.f
+  BAL2T3B.f
+  BAL2T4.f
+  BAL2T5.f
+  BEDINIT.f
+  BEDLOAD.f
+  BEDPLTH.f
+  BUDGET1.f
+  BUDGET2.f
+  BUDGET3.f
+  BUDGET5.f
+  CALAVB.f
+  CALAVB2.f
+  CALAVB_ISFAVB_4.f
+  CALAVBOLD.f
+  CALBAL1.f
+  CALBAL2.f
+  CALBAL3.f
+  CALBAL4.f
+  CALBAL5.f
+  CALBED.f
+  CALBED9.f
+  CALBLAY.f
+  CALBUOY.f
+  CALCONC.f 
+  CALCSER.f
+  CALDIFF.f
+  CALDISP2.f
+  CALDISP3.f
+  CALEBI.f
+  CALEXP.f
+  CALEXP2T.f
+  CALFQC.f
+  CALHDMF.F
+  CALHEAT.f
+  CALHTA.f
+  CALIMP2T.f
+  CALMMT.f
+  CALPGCORR.f
+  CALPNHS.f
+  CALPSER.f
+  CALPUV2C.F
+  CALPUV2T.F
+  CALPUV9.f
+  CALPUV9C.f
+  CALQQ1.f
+  CALQQ1OLD.f
+  CALQQ2.f
+  CALQQ2T.f
+  CALQQ2TOLD.f
+  CALQVS.f
+  CALSED.f
+  CALSFT.f
+  CALSND.f
+  CALSTEP.f
+  CALSTEPD.f
+  CALTBXY.f
+  CALTOX.f 
+  CALTOXB.f
+  CALTRAN.f
+  CALTRANQ.f
+  CALTSXY.f
+  CALUVW.F
+  CALVEGSER.f
+  CALWQC.F
+  CBALEV1.f
+  CBALEV2.f
+  CBALEV3.f
+  CBALEV4.f
+  CBALEV5.f
+  CBALOD1.f
+  CBALOD2.f
+  CBALOD3.f
+  CBALOD4.f
+  CBALOD5.f
+  CELLMAP.F
+  CELLMASK.f
+  CEQICM.f
+  codarname.f90
+  CONGRAD.f
+  CONGRAD_MPI.F
+  CONGRADC.f
+  COSTRAN.f
+  COSTRANW.f
+  CSEDRESB.f
+  CSEDRESS.f
+  CSEDSET.f
+  CSEDTAUB.f
+  CSEDTAUS.f
+  CSEDVIS.f
+  CSNDEQC.f
+  CSNDSET.f
+  CSNDZEQ.f
+  data_assim.F90
+  data_assim_init.F90
+  data_assim_submodules.F90
+  date_time.f90
+  DEPPLT.f
+  diagnostics.f90
+  DRIFTER.F90
+  DUMP.F
+  EEXPOUT.f
+  EFDC.F
+  ensight.f90
+  ensightvariablewriter.f90
+  ensightvariablewriter8.f90
+  FDSTRSE.f
+  FHYDCN.f
+  flowfield.f90
+  foodchain.f
+  FSBDLD.f
+  FSEDMODE.f
+  FSTRSE.f
+  FUNDEN.f
+  HDMT.F
+  HDMT2T.F
+  initbin.f
+  initbin0.f
+  initbin2.f
+  INITBIN3.f
+  INITBIN4.f
+  INPUT.F
+  JPEFDC.f
+  LSQHARM.f
+  LUBKSB.f
+  LUDCMP.f
+  mapboundary.F
+  MHKPWRDIS.f90
+  mpi_util.f
+  NEGDEP.f
+  netcdf_iom.F90
+  OUT3D.f
+  OUTPUT1.f
+  OUTPUT2.f
+  parallel_mpi.F90
+  PPLOT.f
+  puvdasm.f
+  RCAHQ.f
+  read_lorp.f90
+  readdata_testing.f90
+  RELAX2T.f
+  RESIDENCEPLOT.F90
+  RESTIN1.f
+  RESTIN10.f
+  RESTIN2.f
+  RESTMOD.f
+  RESTOUT.f
+  RESTRAN.f
+  ROUT3D.f
+  RSALPLTH.f
+  RSALPLTV.f
+  RSMICI.f
+  RSMRST.f
+  RSURFPLT.f
+  RVELPLTH.f
+  RVELPLTV.f
+  RWQAGR.f
+  RWQATM.f
+  RWQBEN2.f
+  RWQC1.f
+  RWQCSR.f
+  RWQICI.f
+  RWQPSL.f
+  RWQRST.f
+  RWQSTL.f
+  RWQSUN.f
+  s_bedload.f90
+  s_main.f90
+  s_morph.f90
+  s_sedic.f90
+  s_sedzlj.f90
+  s_shear.f90
+  s_slope.f90
+  SALPLTH.f
+  SALPLTV.f
+  SALTSMTH.f
+  SCANASER.f
+  SCANDSER.f
+  SCANEFDC.f
+  SCANGWSR.f
+  SCANLORP.f
+  SCANMODC.f
+  SCANPSER.f
+  SCANQCTL.f
+  SCANQSER.f
+  SCANSEDZLJ.f90
+  SCANSFSR.f
+  SCANSSER.f
+  SCANTSER.f
+  SCANWQ.f
+  SCANWSER.f
+  SCNTXSED.f
+  SECNDS.f
+  SEDFLUX.f
+  SEEK.f
+  SETBCS.f
+  SETFPOCB.f
+  SETOBC2T.f
+  SETOPENBC.f
+  SETOPENBC2.f
+  SETSHLD.f
+  SETSTVEL.f
+  SHOWVAL.F90
+  SKIPCOMM.f
+  SMINIT.f
+  SMMBE.f
+  SMRIN1.f
+  SOLVSMBE.f
+  SSEDTOX.f
+  structident.f90
+  SUBCHAN.f
+  SURFPLT.f
+  SVBKSB.f
+  SVDCMP.f
+  tecplot.f90
+  time2year.f90
+  TIMELOG.f
+  TMSR.f
+  TOXCHEM.f
+  translateLXLY.f90
+  VALKH.f
+  Var_Global_Mod.F90
+  VARALLOC.f
+  VARINIT.F
+  VARZEROInt.f90
+  VARZEROReal.f90
+  VARZEROSNL.f90
+  VELPLTH.f
+  VELPLTV.f
+  VSFP.f
+  WASP4.f
+  WASP5.f
+  WASP6.f
+  WASP7.f
+  WASP7EPA.f
+  WAVEBL.f
+  WAVESXY.f
+  WELCOME.f90
+  WINDWAVE.f90
+  WQ3D.F
+  WQ3DINP.f
+  WQSKE0.f
+  WQSKE1.f
+  WQSKE2.f
+  WQSKE3.f
+  WQSKE4.f
+  WQZERO.f
+  WQZERO2.f
+  WQZERO3.f
+  WQZERO4.f
+  WSMRST.f
+  WSMTS.f
+  WSMTSBIN.f
+  WWQNC.f
+  WWQRST.f
+  WWQTS.f
+  WWQTSBIN.f
+  ZBRENT.f
+  PF_CALL_EFDC.F
+  )
+
+#set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -M${CMAKE_CURRENT_BINARY_DIR}")
+
+add_library(pfefdc ${SRC_FILES})
+
+find_package(MPI REQUIRED)
+
+set (EXECUTABLES "EFDC")
+add_executable ("EFDC" "EFDC.F")
+include_directories(/usr/include)
+
+#EFDC: -lblas and -llapack | Only need it if we invoke data assimilation
+
+target_link_libraries(pfefdc -lnetcdff -lnetcdf -fopenmp -lblas -llapack -lmpi_usempif08 -lmpi_mpifh -lmpi -lmpi_usempi_ignore_tkr)
+
+target_link_libraries("EFDC" pfefdc -lnetcdff -lnetcdf -fopenmp -lblas -llapack -lmpi_usempif08 -lmpi_mpifh -lmpi -lmpi_usempi_ignore_tkr)
+
+#install(TARGETS "EFDC" DESTINATION bin)
+install(TARGETS "EFDC" DESTINATION efdc)
+install (TARGETS pfefdc DESTINATION lib)
+

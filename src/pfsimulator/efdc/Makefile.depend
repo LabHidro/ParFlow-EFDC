@@ -1,0 +1,263 @@
+ACON.o : ACON.f Var_Global_Mod.o
+AINIT.o : AINIT.f Var_Global_Mod.o
+BAL2T1.o : BAL2T1.f Var_Global_Mod.o
+BAL2T2.o : BAL2T2.f Var_Global_Mod.o
+BAL2T3A.o : BAL2T3A.f Var_Global_Mod.o
+BAL2T3B.o : BAL2T3B.f Var_Global_Mod.o
+BAL2T4.o : BAL2T4.f Var_Global_Mod.o
+BAL2T5.o : BAL2T5.f Var_Global_Mod.o
+BEDINIT.o : BEDINIT.f Var_Global_Mod.o
+BEDLOAD.o : BEDLOAD.f Var_Global_Mod.o
+BEDPLTH.o : BEDPLTH.f Var_Global_Mod.o
+BUDGET1.o : BUDGET1.f Var_Global_Mod.o
+BUDGET2.o : BUDGET2.f Var_Global_Mod.o
+BUDGET3.o : BUDGET3.f Var_Global_Mod.o
+BUDGET5.o : BUDGET5.f Var_Global_Mod.o
+CALAVB.o : CALAVB.f Var_Global_Mod.o
+CALAVB2.o : CALAVB2.f Var_Global_Mod.o
+CALAVB_ISFAVB_4.o : CALAVB_ISFAVB_4.f Var_Global_Mod.o
+CALAVBOLD.o : CALAVBOLD.f Var_Global_Mod.o
+CALBAL1.o : CALBAL1.f Var_Global_Mod.o
+CALBAL2.o : CALBAL2.f Var_Global_Mod.o
+CALBAL3.o : CALBAL3.f Var_Global_Mod.o
+CALBAL4.o : CALBAL4.f Var_Global_Mod.o
+CALBAL5.o : CALBAL5.f Var_Global_Mod.o
+CALBED.o : CALBED.f Var_Global_Mod.o
+CALBED9.o : CALBED9.f Var_Global_Mod.o
+CALBLAY.o : CALBLAY.f Var_Global_Mod.o
+CALBUOY.o : CALBUOY.f Var_Global_Mod.o
+CALCONC.o  : CALCONC.f  Var_Global_Mod.o
+CALCSER.o : CALCSER.f Var_Global_Mod.o
+CALDIFF.o : CALDIFF.f Var_Global_Mod.o
+CALDISP2.o : CALDISP2.f Var_Global_Mod.o
+CALDISP3.o : CALDISP3.f Var_Global_Mod.o
+CALEBI.o : CALEBI.f Var_Global_Mod.o
+CALEXP.o : CALEXP.f Var_Global_Mod.o
+CALEXP2T.o : CALEXP2T.f Var_Global_Mod.o
+CALFQC.o : CALFQC.f Var_Global_Mod.o
+CALHDMF.o : CALHDMF.F Var_Global_Mod.o parallel_mpi.o
+CALHEAT.o : CALHEAT.f Var_Global_Mod.o
+CALHTA.o : CALHTA.f Var_Global_Mod.o
+CALIMP2T.o : CALIMP2T.f Var_Global_Mod.o
+CALMMT.o : CALMMT.f Var_Global_Mod.o
+CALPGCORR.o : CALPGCORR.f Var_Global_Mod.o
+CALPNHS.o : CALPNHS.f Var_Global_Mod.o
+CALPSER.o : CALPSER.f Var_Global_Mod.o
+CALPUV2C.o : CALPUV2C.F Var_Global_Mod.o parallel_mpi.o
+CALPUV2T.o : CALPUV2T.F Var_Global_Mod.o parallel_mpi.o
+CALPUV9.o : CALPUV9.f Var_Global_Mod.o
+CALPUV9C.o : CALPUV9C.f Var_Global_Mod.o
+CALQQ1.o : CALQQ1.f Var_Global_Mod.o
+CALQQ1OLD.o : CALQQ1OLD.f Var_Global_Mod.o
+CALQQ2.o : CALQQ2.f Var_Global_Mod.o
+CALQQ2T.o : CALQQ2T.f Var_Global_Mod.o
+CALQQ2TOLD.o : CALQQ2TOLD.f Var_Global_Mod.o
+CALQVS.o : CALQVS.f Var_Global_Mod.o
+CALSED.o : CALSED.f Var_Global_Mod.o
+CALSFT.o : CALSFT.f Var_Global_Mod.o
+CALSND.o : CALSND.f Var_Global_Mod.o
+CALSTEP.o : CALSTEP.f Var_Global_Mod.o
+CALSTEPD.o : CALSTEPD.f Var_Global_Mod.o
+CALTBXY.o : CALTBXY.f Var_Global_Mod.o
+CALTOX.o  : CALTOX.f  Var_Global_Mod.o
+CALTOXB.o : CALTOXB.f Var_Global_Mod.o
+CALTRAN.o : CALTRAN.f Var_Global_Mod.o
+CALTRANQ.o : CALTRANQ.f Var_Global_Mod.o
+CALTSXY.o : CALTSXY.f Var_Global_Mod.o
+CALUVW.o : CALUVW.F Var_Global_Mod.o parallel_mpi.o
+CALVEGSER.o : CALVEGSER.f Var_Global_Mod.o
+CALWQC.o : CALWQC.F Var_Global_Mod.o
+CBALEV1.o : CBALEV1.f Var_Global_Mod.o
+CBALEV2.o : CBALEV2.f Var_Global_Mod.o
+CBALEV3.o : CBALEV3.f Var_Global_Mod.o
+CBALEV4.o : CBALEV4.f Var_Global_Mod.o
+CBALEV5.o : CBALEV5.f Var_Global_Mod.o
+CBALOD1.o : CBALOD1.f Var_Global_Mod.o
+CBALOD2.o : CBALOD2.f Var_Global_Mod.o
+CBALOD3.o : CBALOD3.f Var_Global_Mod.o
+CBALOD4.o : CBALOD4.f Var_Global_Mod.o
+CBALOD5.o : CBALOD5.f Var_Global_Mod.o
+CELLMAP.o : CELLMAP.F Var_Global_Mod.o
+CELLMASK.o : CELLMASK.f Var_Global_Mod.o
+CEQICM.o : CEQICM.f Var_Global_Mod.o
+codarname.o : codarname.f90
+CONGRAD.o : CONGRAD.f Var_Global_Mod.o
+CONGRAD_MPI.o : CONGRAD_MPI.F Var_Global_Mod.o parallel_mpi.o
+CONGRADC.o : CONGRADC.f Var_Global_Mod.o
+COSTRAN.o : COSTRAN.f Var_Global_Mod.o
+COSTRANW.o : COSTRANW.f Var_Global_Mod.o
+CSEDRESB.o : CSEDRESB.f
+CSEDRESS.o : CSEDRESS.f
+CSEDSET.o : CSEDSET.f
+CSEDTAUB.o : CSEDTAUB.f
+CSEDTAUS.o : CSEDTAUS.f
+CSEDVIS.o : CSEDVIS.f
+CSNDEQC.o : CSNDEQC.f
+CSNDSET.o : CSNDSET.f
+CSNDZEQ.o : CSNDZEQ.f
+data_assim.o : data_assim.F90
+data_assim_init.o : data_assim_init.F90 Var_Global_Mod.o
+data_assim_submodules.o : data_assim_submodules.F90
+date_time.o : date_time.f90 Var_Global_Mod.o
+DEPPLT.o : DEPPLT.f Var_Global_Mod.o
+diagnostics.o : diagnostics.f90 Var_Global_Mod.o
+DRIFTER.o : DRIFTER.F90 Var_Global_Mod.o
+DUMP.o : DUMP.F Var_Global_Mod.o
+EEXPOUT.o : EEXPOUT.f Var_Global_Mod.o
+EFDC.o : EFDC.F Var_Global_Mod.o parallel_mpi.o DRIFTER.o netcdf_iom.o
+ensight.o : ensight.f90 Var_Global_Mod.o
+ensightvariablewriter.o : ensightvariablewriter.f90 Var_Global_Mod.o
+ensightvariablewriter8.o : ensightvariablewriter8.f90 Var_Global_Mod.o
+FDSTRSE.o : FDSTRSE.f
+FHYDCN.o : FHYDCN.f
+flowfield.o : flowfield.f90 Var_Global_Mod.o
+foodchain.o : foodchain.f Var_Global_Mod.o
+FSBDLD.o : FSBDLD.f
+FSEDMODE.o : FSEDMODE.f
+FSTRSE.o : FSTRSE.f
+FUNDEN.o : FUNDEN.f
+HDMT.o : HDMT.F Var_Global_Mod.o DRIFTER.o netcdf_iom.o WINDWAVE.o
+HDMT2T.o : HDMT2T.F Var_Global_Mod.o parallel_mpi.o DRIFTER.o netcdf_iom.o WINDWAVE.o
+initbin.o : initbin.f Var_Global_Mod.o
+initbin0.o : initbin0.f Var_Global_Mod.o
+initbin2.o : initbin2.f Var_Global_Mod.o
+INITBIN3.o : INITBIN3.f Var_Global_Mod.o
+INITBIN4.o : INITBIN4.f Var_Global_Mod.o
+INPUT.o : INPUT.F Var_Global_Mod.o parallel_mpi.o DRIFTER.o
+JPEFDC.o : JPEFDC.f Var_Global_Mod.o
+LSQHARM.o : LSQHARM.f Var_Global_Mod.o
+LUBKSB.o : LUBKSB.f
+LUDCMP.o : LUDCMP.f
+mapboundary.o : mapboundary.F Var_Global_Mod.o
+MHKPWRDIS.o : MHKPWRDIS.f90 Var_Global_Mod.o
+mpi_util.o : mpi_util.f Var_Global_Mod.o
+NEGDEP.o : NEGDEP.f Var_Global_Mod.o
+netcdf_iom.o : netcdf_iom.F90 Var_Global_Mod.o
+OUT3D.o : OUT3D.f Var_Global_Mod.o
+OUTPUT1.o : OUTPUT1.f Var_Global_Mod.o
+OUTPUT2.o : OUTPUT2.f Var_Global_Mod.o
+parallel_mpi.o : parallel_mpi.F90 Var_Global_Mod.o
+PPLOT.o : PPLOT.f Var_Global_Mod.o
+puvdasm.o : puvdasm.f Var_Global_Mod.o
+RCAHQ.o : RCAHQ.f Var_Global_Mod.o
+read_lorp.o : read_lorp.f90 Var_Global_Mod.o
+readdata_testing.o : readdata_testing.f90
+RELAX2T.o : RELAX2T.f Var_Global_Mod.o
+RESIDENCEPLOT.o : RESIDENCEPLOT.F90 Var_Global_Mod.o parallel_mpi.o
+RESTIN1.o : RESTIN1.f Var_Global_Mod.o
+RESTIN10.o : RESTIN10.f Var_Global_Mod.o
+RESTIN2.o : RESTIN2.f Var_Global_Mod.o
+RESTMOD.o : RESTMOD.f Var_Global_Mod.o
+RESTOUT.o : RESTOUT.f Var_Global_Mod.o
+RESTRAN.o : RESTRAN.f Var_Global_Mod.o
+ROUT3D.o : ROUT3D.f Var_Global_Mod.o
+RSALPLTH.o : RSALPLTH.f Var_Global_Mod.o
+RSALPLTV.o : RSALPLTV.f Var_Global_Mod.o
+RSMICI.o : RSMICI.f Var_Global_Mod.o
+RSMRST.o : RSMRST.f Var_Global_Mod.o
+RSURFPLT.o : RSURFPLT.f Var_Global_Mod.o
+RVELPLTH.o : RVELPLTH.f Var_Global_Mod.o
+RVELPLTV.o : RVELPLTV.f Var_Global_Mod.o
+RWQAGR.o : RWQAGR.f Var_Global_Mod.o
+RWQATM.o : RWQATM.f Var_Global_Mod.o
+RWQBEN2.o : RWQBEN2.f Var_Global_Mod.o
+RWQC1.o : RWQC1.f Var_Global_Mod.o
+RWQCSR.o : RWQCSR.f Var_Global_Mod.o
+RWQICI.o : RWQICI.f Var_Global_Mod.o
+RWQPSL.o : RWQPSL.f Var_Global_Mod.o
+RWQRST.o : RWQRST.f Var_Global_Mod.o
+RWQSTL.o : RWQSTL.f Var_Global_Mod.o
+RWQSUN.o : RWQSUN.f Var_Global_Mod.o
+s_bedload.o : s_bedload.f90 Var_Global_Mod.o
+s_main.o : s_main.f90 Var_Global_Mod.o
+s_morph.o : s_morph.f90 Var_Global_Mod.o
+s_sedic.o : s_sedic.f90 Var_Global_Mod.o
+s_sedzlj.o : s_sedzlj.f90 Var_Global_Mod.o
+s_shear.o : s_shear.f90 Var_Global_Mod.o
+s_slope.o : s_slope.f90 Var_Global_Mod.o
+SALPLTH.o : SALPLTH.f Var_Global_Mod.o
+SALPLTV.o : SALPLTV.f Var_Global_Mod.o
+SALTSMTH.o : SALTSMTH.f Var_Global_Mod.o
+SCANASER.o : SCANASER.f Var_Global_Mod.o
+SCANDSER.o : SCANDSER.f Var_Global_Mod.o
+SCANEFDC.o : SCANEFDC.f Var_Global_Mod.o
+SCANGWSR.o : SCANGWSR.f Var_Global_Mod.o
+SCANLORP.o : SCANLORP.f Var_Global_Mod.o
+SCANMODC.o : SCANMODC.f Var_Global_Mod.o
+SCANPSER.o : SCANPSER.f Var_Global_Mod.o
+SCANQCTL.o : SCANQCTL.f Var_Global_Mod.o
+SCANQSER.o : SCANQSER.f Var_Global_Mod.o
+SCANSEDZLJ.o : SCANSEDZLJ.f90 Var_Global_Mod.o
+SCANSFSR.o : SCANSFSR.f Var_Global_Mod.o
+SCANSSER.o : SCANSSER.f Var_Global_Mod.o
+SCANTSER.o : SCANTSER.f Var_Global_Mod.o
+SCANWQ.o : SCANWQ.f Var_Global_Mod.o
+SCANWSER.o : SCANWSER.f Var_Global_Mod.o
+SCNTXSED.o : SCNTXSED.f Var_Global_Mod.o
+SECNDS.o : SECNDS.f Var_Global_Mod.o
+SEDFLUX.o : SEDFLUX.f Var_Global_Mod.o
+SEEK.o : SEEK.f Var_Global_Mod.o
+SETBCS.o : SETBCS.f Var_Global_Mod.o
+SETFPOCB.o : SETFPOCB.f Var_Global_Mod.o
+SETOBC2T.o : SETOBC2T.f Var_Global_Mod.o
+SETOPENBC.o : SETOPENBC.f Var_Global_Mod.o
+SETOPENBC2.o : SETOPENBC2.f Var_Global_Mod.o
+SETSHLD.o : SETSHLD.f Var_Global_Mod.o
+SETSTVEL.o : SETSTVEL.f Var_Global_Mod.o
+SHOWVAL.o : SHOWVAL.F90 Var_Global_Mod.o
+SKIPCOMM.o : SKIPCOMM.f Var_Global_Mod.o
+SMINIT.o : SMINIT.f Var_Global_Mod.o
+SMMBE.o : SMMBE.f Var_Global_Mod.o
+SMRIN1.o : SMRIN1.f Var_Global_Mod.o
+SOLVSMBE.o : SOLVSMBE.f Var_Global_Mod.o
+SSEDTOX.o : SSEDTOX.f Var_Global_Mod.o
+structident.o : structident.f90 Var_Global_Mod.o
+SUBCHAN.o : SUBCHAN.f Var_Global_Mod.o
+SURFPLT.o : SURFPLT.f Var_Global_Mod.o
+SVBKSB.o : SVBKSB.f Var_Global_Mod.o
+SVDCMP.o : SVDCMP.f Var_Global_Mod.o
+tecplot.o : tecplot.f90 Var_Global_Mod.o
+time2year.o : time2year.f90 Var_Global_Mod.o
+TIMELOG.o : TIMELOG.f Var_Global_Mod.o
+TMSR.o : TMSR.f Var_Global_Mod.o
+TOXCHEM.o : TOXCHEM.f Var_Global_Mod.o
+translateLXLY.o : translateLXLY.f90 Var_Global_Mod.o
+VALKH.o : VALKH.f Var_Global_Mod.o
+Var_Global_Mod.o : Var_Global_Mod.F90 Var_Global_Mod.o
+VARALLOC.o : VARALLOC.f Var_Global_Mod.o
+VARINIT.o : VARINIT.F Var_Global_Mod.o
+VARZEROInt.o : VARZEROInt.f90 Var_Global_Mod.o
+VARZEROReal.o : VARZEROReal.f90 Var_Global_Mod.o
+VARZEROSNL.o : VARZEROSNL.f90 Var_Global_Mod.o
+VELPLTH.o : VELPLTH.f Var_Global_Mod.o
+VELPLTV.o : VELPLTV.f Var_Global_Mod.o
+VSFP.o : VSFP.f Var_Global_Mod.o
+WASP4.o : WASP4.f Var_Global_Mod.o
+WASP5.o : WASP5.f Var_Global_Mod.o
+WASP6.o : WASP6.f Var_Global_Mod.o
+WASP7.o : WASP7.f Var_Global_Mod.o
+WASP7EPA.o : WASP7EPA.f Var_Global_Mod.o
+WAVEBL.o : WAVEBL.f Var_Global_Mod.o
+WAVESXY.o : WAVESXY.f Var_Global_Mod.o
+WELCOME.o : WELCOME.f90 Var_Global_Mod.o
+WINDWAVE.o : WINDWAVE.f90 Var_Global_Mod.o
+WQ3D.o : WQ3D.F Var_Global_Mod.o
+WQ3DINP.o : WQ3DINP.f Var_Global_Mod.o
+WQSKE0.o : WQSKE0.f Var_Global_Mod.o
+WQSKE1.o : WQSKE1.f Var_Global_Mod.o
+WQSKE2.o : WQSKE2.f Var_Global_Mod.o
+WQSKE3.o : WQSKE3.f Var_Global_Mod.o
+WQSKE4.o : WQSKE4.f Var_Global_Mod.o
+WQZERO.o : WQZERO.f Var_Global_Mod.o
+WQZERO2.o : WQZERO2.f Var_Global_Mod.o
+WQZERO3.o : WQZERO3.f Var_Global_Mod.o
+WQZERO4.o : WQZERO4.f Var_Global_Mod.o
+WSMRST.o : WSMRST.f Var_Global_Mod.o
+WSMTS.o : WSMTS.f Var_Global_Mod.o
+WSMTSBIN.o : WSMTSBIN.f Var_Global_Mod.o
+WWQNC.o : WWQNC.f Var_Global_Mod.o
+WWQRST.o : WWQRST.f Var_Global_Mod.o
+WWQTS.o : WWQTS.f Var_Global_Mod.o
+WWQTSBIN.o : WWQTSBIN.f Var_Global_Mod.o
+ZBRENT.o : ZBRENT.f Var_Global_Mod.o
+PF_CALL_EFDC.o : PF_CALL_EFDC.F Var_Global_Mod.o
